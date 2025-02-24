@@ -1,3 +1,15 @@
+
+/*
+En una tienda se venden tres tipos de productos: "A" (alimentos), "V" (vestimenta) y "E"
+(electrónicos). Cada producto tiene un precio base diferente. Escribe un programa en que
+solicite al cliente el tipo de producto que desea comprar (A, V o E) y la cantidad de unidades.
+Para calcular el costo total de la compra. Si el cliente compra productos de tipo "A", obtiene un
+10% de descuento. Si compra productos de tipo "V", obtiene un 5% de descuento. Si compra
+productos de tipo "E", no hay descuento. Finalmente, muestra el costo total de la compra con el
+descuento aplicado y el costo sin descuento. Asegúrate de validar que la cantidad de unidades
+sea un número positivo.
+*/
+
 package javaEjercicios;
 
 import java.util.Scanner;
@@ -5,6 +17,7 @@ import java.util.Scanner;
 public class Principal {
 	public static void main(String[] args) {
 		Scanner lectura = new Scanner(System.in);
+
 
 
 		/*
@@ -28,6 +41,10 @@ public class Principal {
 		Ejercicio5
 		Ejer5 ejer5 = new Ejer5(lectura);
 		ejer5.tomarDatos();
+
+		Ejercicio 6
+		Ejer6 ejer6 = new Ejer6(lectura);
+		ejer6.tomarPeidio();
 
 		 */
 	}
