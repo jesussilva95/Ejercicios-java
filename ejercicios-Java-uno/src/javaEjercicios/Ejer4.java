@@ -9,7 +9,8 @@ public class Ejer4 {
 	* del umbral de alerta. Si es así, muestra un mensaje de alerta. Si no, muestra un mensaje de
 	* que la temperatura es normal.
 	* */
-	private Scanner lectura;
+	protected Scanner lectura;
+
 	public Ejer4(Scanner lectura){
 		this.lectura = lectura;
 	}
@@ -20,11 +21,13 @@ public class Ejer4 {
 		return tempe;
 	}
 
-	public void calcularTemperatura(float tempe) {
+	public boolean calcularTemperatura(float tempe) {
 		if (tempe < 30){
 			System.out.println("Temperatura esta en rango: ");
+			return true;
 		}else {
 			System.out.println("Esta demasiada alta la temperatura toma una ceverza ");
+			return false;
 		}
 	}
 }

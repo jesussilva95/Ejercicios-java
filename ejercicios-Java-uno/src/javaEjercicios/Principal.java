@@ -6,9 +6,7 @@ public class Principal {
 	public static void main(String[] args) {
 		Scanner lectura = new Scanner(System.in);
 
-		Ejer4 ejer4 = new Ejer4(lectura);
-		float tempe = ejer4.tomarTemperatura();
-		ejer4.calcularTemperatura(tempe);
+
 		/*
 		Ejercicio 1
 		Ejer1 ejer1 = new Ejer1(lectura);
@@ -21,6 +19,15 @@ public class Principal {
 		Ejercicio 3
 		Ejer3 ejer3 = new Ejer3(lectura);
 		ejer3.tomarTemperatura();
+
+		Ejercicio 4
+		Ejer4 ejer4 = new Ejer4(lectura);
+		float tempe = ejer4.tomarTemperatura();
+		boolean resultado = ejer4.calcularTemperatura(tempe);
+
+		Ejercicio5
+		Ejer5 ejer5 = new Ejer5(lectura);
+		ejer5.tomarDatos();
 
 		 */
 	}
