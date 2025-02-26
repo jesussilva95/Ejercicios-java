@@ -20,6 +20,8 @@ public class Principal {
 
 
 
+
+
 		/*
 		Ejercicio 1
 		Ejer1 ejer1 = new Ejer1(lectura);
@@ -45,6 +47,12 @@ public class Principal {
 		Ejercicio 6
 		Ejer6 ejer6 = new Ejer6(lectura);
 		ejer6.tomarPeidio();
+
+		Ejercicio7
+		Ejer7 ejer7 = new Ejer7(lectura);
+		ejer7.tomarDatos();
+
+		Ejercicio8
 
 		 */
 	}
