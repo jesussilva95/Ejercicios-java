@@ -17,6 +17,8 @@ import java.util.Scanner;
 public class Principal {
 	public static void main(String[] args) {
 		Scanner lectura = new Scanner(System.in);
+		Ejer8 ejer8 = new Ejer8(lectura);
+		ejer8.tomarEdad();
 
 
 
