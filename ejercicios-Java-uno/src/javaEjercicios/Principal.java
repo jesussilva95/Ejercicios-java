@@ -17,8 +17,10 @@ import java.util.Scanner;
 public class Principal {
 	public static void main(String[] args) {
 		Scanner lectura = new Scanner(System.in);
-		Ejer10 ejer10 = new Ejer10(lectura);
-		ejer10.tomarPedido();
+		Ejer11 ejer11= new Ejer11(lectura);
+		ejer11.menuCajero();
+
+
 		/*
 		Ejercicio 1
 		Ejer1 ejer1 = new Ejer1(lectura);
