@@ -11,7 +11,7 @@ public class Ejer8 {
 		System.out.println("Ingrese su edad: ");
 		int edad = lectura.nextInt();
 		String recomendacion = recomendarPelicula(edad);
-		System.out.println("\n🎬 Recomendación de película: " + recomendacion);
+		System.out.println(" Recomendación de película: " + recomendacion);
 	}
 	public String recomendarPelicula(int edad) {
 		if (edad < 7) {

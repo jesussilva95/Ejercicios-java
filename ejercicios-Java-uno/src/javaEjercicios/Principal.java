@@ -17,13 +17,8 @@ import java.util.Scanner;
 public class Principal {
 	public static void main(String[] args) {
 		Scanner lectura = new Scanner(System.in);
-		Ejer8 ejer8 = new Ejer8(lectura);
-		ejer8.tomarEdad();
-
-
-
-
-
+		Ejer10 ejer10 = new Ejer10(lectura);
+		ejer10.tomarPedido();
 		/*
 		Ejercicio 1
 		Ejer1 ejer1 = new Ejer1(lectura);
@@ -55,6 +50,12 @@ public class Principal {
 		ejer7.tomarDatos();
 
 		Ejercicio8
+		Ejer8 ejer8 = new Ejer8(lectura);
+		ejer8.tomarEdad();
+
+		Ejericicio 9
+		Ejer9 ejer9 = new Ejer9(lectura);
+		ejer9.tomarResultados();
 
 		 */
 	}
