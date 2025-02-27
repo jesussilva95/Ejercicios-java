@@ -23,7 +23,7 @@ public class Ejer11 {
 	public void menuCajero() {
 		int opcion = 0;
 		while (opcion != 2) {
-			System.out.println("Saldo Disponible $"+saldo);
+			System.out.println("Saldo Disponible $" + saldo);
 			System.out.println("1 Retirar dinero");
 			System.out.println("2 Salir");
 			System.out.print("Seleccione una opción: ");
@@ -35,7 +35,7 @@ public class Ejer11 {
 			}
 		}
 		System.out.println("Gracias por usar el cajero automático del Chanchito Feliz");
-		}
+	}
 
 	private void realizarRetiro() {
 		System.out.print("Ingrese el monto que desea retirar: ");
@@ -57,54 +57,4 @@ public class Ejer11 {
 		saldo -= monto;
 		System.out.println("Retiro exitoso. Nuevo saldo: $" + saldo);
 	}
-
-
-
 }
-/*
-    public void menu() {
-        int opcion;
-        do {
-            System.out.println("\n💰 Saldo disponible: $" + saldo);
-            System.out.println("1️⃣ Retirar dinero");
-            System.out.println("2️⃣ Salir");
-            System.out.print("Seleccione una opción: ");
-            opcion = scanner.nextInt();
-
-            if (opcion == 1) {
-                realizarRetiro();
-            } else if (opcion != 2) {
-                System.out.println("❌ Opción inválida. Intente nuevamente.");
-            }
-        } while (opcion != 2);
-
-        System.out.println("👋 ¡Gracias por usar el cajero automático!");
-    }
-
-    // Método público para realizar un retiro
-    public void realizarRetiro() {
-        System.out.print("Ingrese el monto que desea retirar: ");
-        double monto = scanner.nextDouble();
-
-        while (monto <= 0 || !validarRetiro(monto)) {
-            System.out.println("❌ Monto inválido o saldo insuficiente. Intente de nuevo.");
-            System.out.print("Ingrese un monto válido: ");
-            monto = scanner.nextDouble();
-        }
-
-        procesarRetiro(monto);
-    }
-
-    // Método público para validar si el retiro es posible
-    public boolean validarRetiro(double monto) {
-        return monto > 0 && monto <= saldo;
-    }
-
-    // Método público para procesar el retiro
-    public void procesarRetiro(double monto) {
-        saldo -= monto; // Resta el monto del saldo
-        System.out.println("✅ Retiro exitoso. Nuevo saldo: $" + saldo);
-    }
-}
-
- */
