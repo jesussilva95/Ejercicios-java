@@ -46,13 +46,3 @@ public class Ejer12 {
 
 	}
 }
-/*
-
-    // Método para mostrar el total de la compra
-    public void mostrarTotal() {
-        System.out.println("\n🛍️ Total de la compra: $" + totalCompra);
-        System.out.println("¡Gracias por su compra!");
-    }
-}
-
- */
