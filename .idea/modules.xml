@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/java-uno-ejer.iml" filepath="$PROJECT_DIR$/java-uno-ejer.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />
+>>>>>>> bafca7d (Primer commit)
     </modules>
   </component>
 </project>
